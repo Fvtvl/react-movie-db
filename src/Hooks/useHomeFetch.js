@@ -42,6 +42,7 @@ export const useHomeFetch = () => {
 
       if (sessionState) {
         setState(sessionState);
+        console.log('session store');
         return;
       }
     }
